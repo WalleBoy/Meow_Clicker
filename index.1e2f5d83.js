@@ -1,0 +1,2 @@
+!function(){var e=0,t=1,n=document.getElementById("meow-count"),o=document.getElementById("meow-button"),u=document.getElementById("upgrade-button");function c(){n.textContent=e}o.addEventListener("click",(function(){e+=t,c()})),u.addEventListener("click",(function(){e>=10?(e-=10,t+=1,c(),alert("Upgrade purchased! You now earn more meows per click.")):alert("Not enough meows to buy this upgrade.")}))}();
+//# sourceMappingURL=index.1e2f5d83.js.map

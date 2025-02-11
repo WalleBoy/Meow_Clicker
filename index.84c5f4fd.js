@@ -1,0 +1,2 @@
+let e=0,t=1;const n=document.getElementById("meow-count"),o=document.getElementById("meow-button"),d=document.getElementById("upgrade-button");function c(){n.textContent=e}o.addEventListener("click",(()=>{e+=t,c()})),d.addEventListener("click",(()=>{e>=10?(e-=10,t+=1,c(),alert("Upgrade purchased! You now earn more meows per click.")):alert("Not enough meows to buy this upgrade.")}));
+//# sourceMappingURL=index.84c5f4fd.js.map
